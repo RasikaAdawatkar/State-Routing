@@ -1,0 +1,201 @@
+
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+$border-specs:1px solid #337ab7;
+
+
+.initial-view{
+  width: 99.6%;
+ /* height: 892px;*/
+ height:100%;
+  background-color: #fff;
+  margin-top: 3px;
+  margin-left: 3px;
+  -o-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+}
+.view-container{
+float: left;
+margin-left: 0px;
+border-left:1px solid #eee;
+height:880px;
+width:80%;
+}
+.nav-ctrl{
+	float:left;
+	height:100%;
+	width:20%;
+}
+.changing-views{
+	height:892px;
+}
+.navbar-inner {
+ul{
+	list-style-type:none;
+	}
+}
+
+h3{
+	margin-top:-5px;
+}
+.view1{
+	height:80%;
+	width:40%;
+	border:1px solid #ccc;
+	float:left; 
+}
+  .view2{
+@extend .view1;
+margin-left: 40px;
+}
+ .nav-ctrl{
+.nav-list{
+  height: 805px;
+  width: 100%;
+  background-color: white;
+
+}
+}
+.appln{
+	height: 55px;
+  width: 100%;
+}
+.margin-left{
+	margin-left:20px;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+.well{
+	background-color:#fff !important;
+	border:none !important;
+}
+.category-of-books{
+	height: 50%;
+  width: 100%;
+
+  margin-top: 20px;
+  /*border: 1px solid #ddd;
+  border-radius: 3px;
+  -o-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);*/
+}
+.categories{
+height: 40%;
+  width: 21%;
+  float: left;
+  text-align:center;
+    padding-top: 70px;
+  font-size: 20px;
+}
+
+.fiction{
+ @extend .categories;
+   margin-left: 70px;
+  background-color: #0065BD;
+  margin-top: 40px;
+}
+.non-fiction{
+	@extend .categories; 
+	background-color:#009AA6;
+	 margin-top: 40px;
+}
+.languages{
+	@extend .categories;
+	background-color:#3F52B2;
+	 margin-top: 40px;
+}
+.magazines{
+	@extend .categories;
+	background-color:#006983;
+	 margin-top: 40px;
+}
+.newspapers{
+clear:both;
+	@extend .categories;
+	 margin-left: 70px;
+	background-color:#00ADEF;
+	
+}
+.curriculum{
+	@extend .categories;
+	background-color:#7D9AAA;
+}
+.journals{
+	@extend .categories;
+	background-color:#002960;
+}
+.general-knowledge{
+	@extend .categories;
+	background-color:#67317E;
+}
+.show-category{
+  background-color:#B2CCCC;
+  height: 4%;
+  width: 18%;
+  color:white;
+  border-radius: 3px;
+  padding-left: 11px;
+  padding-top: 7px;
+  margin-top:55px;
+}
+.part1{
+	  height: 2%;
+	  background-color:#B2CCCC;
+      border-radius: 2px;
+      padding: 7px;
+      color:white;
+}
+.part2{
+	@extend .part1;
+	margin-top:10px;
+	color:black;
+}
+.display-details{
+	width: 100%;
+  height: 50%;
+
+  padding: 20px;
+}
+.collection{
+	height:100%;
+}
+.collection {
+a{
+	color:white;
+	}
+a:link{
+	text-decoration:none;
+    cursor:pointer;
+	}	
+}
+.staff{
+  height: 35%;
+  width: 140%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -o-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+.staff-availability{
+  height: 380px;
+  width: 310px;
+  background-color: #ddd;
+  border: 1px solid #ddd; 
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+.highlight{
+	background-color:#8EA3A3;
+}
+.active{
+  color:black;
+}
+.part2 a{
+  color:black;
+}
+.part1 a{
+  color:black;
+}

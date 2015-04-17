@@ -1,0 +1,21 @@
+{
+    "curriculum": [
+        {"language":"English",
+          "totalStock":250,
+          "authors":15,
+          "newArrivals":1
+         },
+         {
+            "language":"French",
+            "totalStock":150,
+            "authors":23,
+            "newArrivals":5
+         },
+         {
+            "language":"Hindi",
+            "totalStock":55,
+            "authors":17,
+            "newArrivals":2
+         }
+    ]
+}

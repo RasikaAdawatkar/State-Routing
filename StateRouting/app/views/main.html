@@ -1,0 +1,44 @@
+  <div class="initial-view">
+
+  <div class=" well nav-ctrl">
+    <div class="navbar-inner">
+      <div class="appln">
+      <h3 class="pull-left"><a class="brand" href="#">State Routing</a></H3>
+      </div>
+        <div class="nav-list">
+      <ul style="float:left" >
+
+        <li class="part1" ui-sref-active="highlight">
+           <a  ui-sref=".route1" >Library</a>
+       </li>
+         
+       
+
+        <li class="part2" ui-sref-active="highlight">
+          <a ui-sref=".route2">Staff</a>
+        </li>
+       <!--  <li ><a ui-sref=".route3">Route 3</a></li>
+        <li ><a ui-sref=".route4">Route 4</a></li> -->
+        <li class="part2"ng-click="moveToLibrary()">
+          <p>click here to see the library</p>
+        </li>
+
+         <li class="part2"ng-click="moveToStaff()">
+          <p>click here to see staff details</p>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+
+
+  <div class="row view-container">
+
+      <div class="well changing-views" ui-view ></div>
+
+      <!-- <div ui-view></div>     -->
+
+    
+  </div>
+</div>

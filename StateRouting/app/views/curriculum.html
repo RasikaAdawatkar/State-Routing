@@ -1,0 +1,23 @@
+<table class="table table-hover">
+   <caption style="font-size:30px">Books For The Curriculum</caption>
+   <thead>
+      <tr>
+         <th>Language</th>
+         <th>Total Stock</th>
+         <th>Number Of Authors</th>
+         <th>New Arrivals</th>
+       
+      </tr>
+   </thead>
+   <tbody>
+      <tr ng-repeat="category in categories">
+         <td>{{category.language}}</td>
+         <td>{{category.totalStock}}</td>
+         <td>{{category.authors}}</td>
+         <td>{{category.newArrivals}}</td>
+        
+      </tr>
+      
+    
+   </tbody>
+</table>
